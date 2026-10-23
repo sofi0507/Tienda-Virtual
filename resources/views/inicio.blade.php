@@ -17,20 +17,20 @@
         }
 
         header {
-            background-color: #222;
+            background-color: #886092;
             color: white;
             padding: 20px;
             text-align: center;
         }
 
         nav {
-            background-color: #333;
+            background-color: #c681e0;
             padding: 15px;
             text-align: center;
         }
 
         nav a {
-            color: white;
+            color: #260236;
             text-decoration: none;
             margin: 0 15px;
         }
@@ -42,7 +42,7 @@
         }
 
         .bienvenida {
-            background-color: white;
+            background-color: #d9b0eb;
             padding: 40px;
             text-align: center;
             border-radius: 10px;
@@ -50,8 +50,8 @@
 
         .boton {
             display: inline-block;
-            background-color: #007bff;
-            color: white;
+            background-color: #ffb3e8;
+            color: #380346;
             padding: 12px 25px;
             text-decoration: none;
             border-radius: 5px;
@@ -62,19 +62,19 @@
             margin-top: 50px;
             padding: 20px;
             text-align: center;
-            background-color: #222;
+            background-color: #886092;
             color: white;
         }
     </style>
 </head>
 <body>
     <header>
-    <h1>Mi tienda virtual</h1>
+    <h1>Mi Tienda Virtual</h1>
     <p>Tienda virtual para que compres todos tus productos</p>
     </header>
     <nav>
         <a href="/">Inicio</a>
-        <a href="/">Productos</a>
+        <a href="/Productos">Productos</a>
         <a href="#">Categorias</a>
         <a href="#">Contactos</a>
     </nav>
@@ -84,7 +84,7 @@
             <p>
                 Encuentra los mejores productos en un solo lugar
             </p>
-            <a href="/Productos" clas="boton"> Ver productos </a>
+            <a href="/Productos" class="boton"> Ver productos </a>
         </section>
     </main>
     <footer> 
